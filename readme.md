@@ -25,6 +25,55 @@ Use Docker Compose to run the app in the contained environment:
 docker compose run --rm langgraph-app
 ```
 
+## Example Output
+
+```bash
+What email do you need?
+> a email for inviting friend to come join the party next saturday night
+
+===== AI GENERATED EMAIL =====
+
+Subject: Join Us for a Fun Evening!
+
+Hi [Friend's Name],
+
+I hope this message finds you well! I’m reaching out to invite you to a party I’m hosting next Saturday night at my place. It will be a great opportunity to unwind, catch up, and enjoy some good food and music.
+
+Date: [Insert Date]
+Time: [Insert Start Time]
+Location: [Your Address]
+
+Please let me know if you can make it. I would love to see you there and share a fun evening together!
+
+Looking forward to your reply.
+
+Best,  
+[Your Name]  
+[Your Contact Information]  
+
+Approve this email? (y/n): y
+
+===== FINAL EMAIL =====
+
+Subject: Join Us for a Fun Evening!
+
+Hi [Friend's Name],
+
+I hope this message finds you well! I’m reaching out to invite you to a party I’m hosting next Saturday night at my place. It will be a great opportunity to unwind, catch up, and enjoy some good food and music.
+
+Date: [Insert Date]
+Time: [Insert Start Time]
+Location: [Your Address]
+
+Please let me know if you can make it. I would love to see you there and share a fun evening together!
+
+Looking forward to your reply.
+
+Best,  
+[Your Name]  
+[Your Contact Information]
+```
+
 ## Follow-up Enhancements
 
 1. Gmail API integration and send-on-approve
